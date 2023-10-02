@@ -2,12 +2,10 @@
   {
     "kernelSource": {
       "name": "bxsj-KernelSU-Proton-release",
-      "repo": "https://github.com/Tkiliay/android_kernel_xiaomi_sm8250",
-      "branch": "KSU",
+      "repo": "https://github.com/cbeiqi/android_kernel_xiaomi_sm8250",
+      "branch": "upstream",
       "device": "cmi",
-      "defconfig": "vendor/kona-perf_defconfig \
-      vendor/xiaomi/sm8250-common.config \
-      vendor/xiaomi/cmi.config"
+      "defconfig": "vendor/kona-perf_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
